@@ -16,6 +16,30 @@ if(menu === "1"){
     alert(`You have successfully transfer #${amount} to ${recieverAccountNumber}`);
 }
 
+// AIRTIME
+
+if(menu === "2"){
+    let network = prompt("Select Network \n 1. MTN \n 2. GLO \n 3. AIRTEL");
+    switch(network){
+        case "1":
+            network = "MTN";
+            break;
+        case "2":
+            network = "GLO";
+            break;
+        case "3":
+            network = "AIRTEL";
+            break;
+        default:
+            network = "MTN";    
+
+    }
+    let number = prompt("Enter Receiver Mobile Number");
+    let amount = prompt("Enter Card Amount");
+    let confirmPin = prompt("Confirm your pin to continue");
+    alert(`You have succesfully purchased #${amount} ${network} airtime for ${number}`);
+}
+
 // WITHDRAWAL;
 if(menu === "3"){
     let accountType = prompt("1. Savings \n 2. Current");
