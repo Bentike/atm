@@ -42,7 +42,7 @@ if(menu === "2"){
 
 // WITHDRAWAL;
 if(menu === "3"){
-    let accountType = prompt("1. Savings \n 2. Current");
+    let accountType = prompt("1. Savings \n2. Current");
     let amountToWithdraw = prompt("1000 \n 5000 \n 10000 \n Others");
     if(amountToWithdraw === "1000" || amountToWithdraw === "5000" || amountToWithdraw === "10000"){
         let confirmPin = prompt("Kindly Enter your Pin to proceed");
