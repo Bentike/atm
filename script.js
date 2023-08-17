@@ -6,6 +6,15 @@ if (cardPin !== defaultPin) {
 }
 let menu = prompt("Select An Option \n 1. Transfer \n 2. Airtime \n 3. Withdrawal \n 4. Check Balance");
 
+// Transfer
+if(menu === "1"){
+    let bank = prompt("Choose Beneficiary's Bank \n 1. GTB \n 2. Second Bank \n 3. Access");
+    let recieverAccountNumber = prompt("Enter Account Number");
+    let amount = prompt("Enter Amount");
+    alert("you are about to transfer " + "#" + amount + " to " + recieverAccountNumber);
+    let pin = prompt("Enter your pin");
+    alert(`You have successfully transfer #${amount} to ${recieverAccountNumber}`);
+}
 
 // WITHDRAWAL;
 if(menu === "3"){
