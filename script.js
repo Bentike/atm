@@ -49,8 +49,8 @@ if(menu === "3"){
         if(confirmPin !== defaultPin) alert("Incorrect Pin");
         else alert(`Congratulations you have successfully withdraw #${amountToWithdraw}.`);
         let reciept = prompt("Do you want a receipt for this transaction? \n 1. Yes \n 2. No");
-        if(reciept === "1") alert("Thank You! Please Remove your card and take your receipt");
-        alert("Thank You! Kindly remove your card.");
+        if(reciept === "1") alert("Thank You! Please take your cash, Remove your card and take your receipt");
+        alert("Thank You! Kindly take your cash and remove your card.");
     }
 }
 
