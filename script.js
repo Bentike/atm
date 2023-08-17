@@ -4,6 +4,7 @@ let cardPin = prompt("Enter Card Pin");
 if (cardPin !== defaultPin) {
   alert("incorrect pin");
 }
+
 let menu = prompt("Select An Option \n 1. Transfer \n 2. Airtime \n 3. Withdrawal \n 4. Check Balance");
 
 // Transfer
@@ -17,7 +18,6 @@ if(menu === "1"){
 }
 
 // AIRTIME
-
 if(menu === "2"){
     let network = prompt("Select Network \n 1. MTN \n 2. GLO \n 3. AIRTEL");
     switch(network){
@@ -53,3 +53,7 @@ if(menu === "3"){
         alert("Thank You! Kindly remove your card.");
     }
 }
+
+// CHECK BALANCE
+
+menu === "4" ? alert("Your account balance is $50,000") : "do nothing";
