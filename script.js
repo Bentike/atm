@@ -1,9 +1,5 @@
 alert("Welcome To Second Bank Nigeria \n Please insert your Card");
-let defaultPin = "2385";
 let cardPin = prompt("Enter Card Pin");
-if (cardPin !== defaultPin) {
-  alert("incorrect pin");
-}
 
 let menu = prompt("Select An Option \n 1. Transfer \n 2. Airtime \n 3. Withdrawal \n 4. Check Balance");
 
