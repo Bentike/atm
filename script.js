@@ -51,5 +51,4 @@ if(menu === "3"){
 }
 
 // CHECK BALANCE
-
 menu === "4" ? alert("Your account balance is $50,000") : "do nothing";
