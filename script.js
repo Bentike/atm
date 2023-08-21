@@ -16,7 +16,7 @@ if(menu === "1"){
     let amount = prompt("Enter Amount");
     alert("you are about to transfer " + "#" + amount + " to " + recieverAccountNumber);
     let pin = prompt("Enter your pin");
-    alert(`You have successfully transfer #${amount} to ${recieverAccountNumber}`);
+    alert(`You have successfully transfered #${amount} to ${recieverAccountNumber}`);
 }
 
 // AIRTIME
