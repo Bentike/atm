@@ -3,10 +3,6 @@ alert("Welcome To Second Bank Nigeria \n Please insert your Card");
 
 let cardPin = prompt("Enter Card Pin");
 
-while(defaultPin !== cardPin){
-    cardPin = prompt("Enter Card Pin");
-}
-
 let menu = prompt("Select An Option \n 1. Transfer \n 2. Airtime \n 3. Withdrawal \n 4. Check Balance");
 
 // Transfer
