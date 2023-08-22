@@ -1,5 +1,5 @@
 alert("Welcome To Second Bank Nigeria \n Please insert your Card");
-let defaultPin = "1234";
+
 
 let cardPin = prompt("Enter Card Pin");
 
